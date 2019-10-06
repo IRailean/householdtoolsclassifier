@@ -1,5 +1,6 @@
 body {
-    background-color: #fff;
+    background-image: url("../img/background_tools.png");
+    background-size: 100%;
 }
 
 .no-display {
@@ -48,9 +49,14 @@ button.choose-file-button {
     height: 40px;
     border-radius: 2px;
     background-color: #ffffff;
-    border: solid 1px #7052CB;
+    border: solid 1px #6E2C00;
     font-size: 13px;
     color: #6E2C00;
+}
+
+.title-classifier {
+    font-size: 48;
+    color: white;
 }
 
 button.analyze-button {
