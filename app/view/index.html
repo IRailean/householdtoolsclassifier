@@ -1,5 +1,11 @@
 <html lang='en'>
 <head>
+  <style>
+      body {
+        background-image: url("../img/background_tools.png");
+        background-size: 100%;
+      }
+  </style>
   <meta charset='utf-8'>
   <link rel='stylesheet' href='../static/style.css'>
   <script src='../static/client.js'></script>
@@ -7,11 +13,7 @@
 <body>
 <div>
   <div class='center'>
-    <div class='title'>Classify Bear Images 🐻</div>
-    <p>
-      Use images of <strong>teddy</strong> bears, <strong>black</strong> bears, <strong>grizzly</strong> bears, or
-      all three!
-    </p>
+    <div class='title'> <p style="font-size:48;color:white"> Household tools classifier </p> </div>
     <div class='content'>
       <div class='no-display'>
         <input id='file-input'
@@ -25,8 +27,8 @@
       <div class='upload-label'>
         <label id='upload-label'>No file chosen</label>
       </div>
-      <div>
-        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+      <div class="image-picked-container">
+        <img id='image-picked' class='no-display' alt='Chosen Image' height='200' width="200">
       </div>
       <div class='analyze'>
         <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>

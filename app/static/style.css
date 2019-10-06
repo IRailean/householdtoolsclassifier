@@ -39,26 +39,38 @@ body {
     font-size: 13px;
 }
 
-button.choose-file-button {
+button.choose-file-button {	
+    position: absolute;
+    top: 35%;
+    left: 45%;
     width: 200px;
     height: 40px;
     border-radius: 2px;
     background-color: #ffffff;
     border: solid 1px #7052CB;
     font-size: 13px;
-    color: #7052CB;
+    color: #6E2C00;
 }
 
 button.analyze-button {
+    position: absolute;
+    top: 75%;
+    left: 45%;
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
+    border: solid 1px #6E2C00;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: #6E2C00;
     font-size: 13px;
     color: #ffffff;
 }
 
 button:focus {
     outline: 0;
+}
+
+.image-picked-container {
+    position: absolute;
+    top: 50%;
+    left: 45%;
 }
